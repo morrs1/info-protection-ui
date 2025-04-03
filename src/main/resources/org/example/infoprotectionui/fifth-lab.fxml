@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.infoprotectionui.controllers.FifthLabController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="103.0" layoutY="154.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Войти" />
       <Button layoutX="357.0" layoutY="154.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="140.0" text="Зарегистрироваться" />
