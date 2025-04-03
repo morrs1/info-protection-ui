@@ -20,6 +20,6 @@ public class MainSceneController {
 
     @FXML
     public void onFifthLabButtonClicked(ActionEvent actionEvent) {
-        SceneSwitcher.getInstance().switchScene(SceneLoader.getInstance().getScenes().get("fifth-lab.fxml"));
+        SceneSwitcher.getInstance().switchScene(SceneLoader.getInstance().getScenes().get("fourth-lab.fxml"));
     }
 }
