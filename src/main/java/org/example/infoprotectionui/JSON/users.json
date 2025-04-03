@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Egor",
+      "phraseId": 1,
+      "idealTime": 500,
+      "rejTime": 200
+    },
+    {
+      "name": "Ego1",
+      "phraseId": 3,
+      "idealTime": 546,
+      "rejTime": 373
+    }
+  ]
+}
