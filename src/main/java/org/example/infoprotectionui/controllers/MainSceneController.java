@@ -13,6 +13,8 @@ public class MainSceneController {
     @FXML
     private Button fifthLabButton;
 
+    @FXML
+    private Button buttonForGraphKeyScene;
 
     public MainSceneController() throws IOException {
     }
@@ -21,5 +23,10 @@ public class MainSceneController {
     @FXML
     public void onFifthLabButtonClicked(ActionEvent actionEvent) {
         SceneSwitcher.getInstance().switchScene(SceneLoader.getInstance().getScenes().get("fourth-lab.fxml"));
+    }
+
+    @FXML
+    public void onButtonForGraphKeySceneClicked(ActionEvent actionEvent) {
+        SceneSwitcher.getInstance().switchScene(SceneLoader.getInstance().getScenes().get("graph-key-scene.fxml"));
     }
 }
