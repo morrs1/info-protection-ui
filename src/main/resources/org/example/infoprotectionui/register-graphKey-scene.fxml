@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane fx:id="_0_2" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.infoprotectionui.controllers.RegisterGraphKeyController">
+<AnchorPane fx:id="" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.infoprotectionui.controllers.RegisterGraphKeyController">
    <children>
       <Button layoutX="229.0" layoutY="360.0" mnemonicParsing="false" onAction="#onRegButtonClicked" text="Зарегистрироваться" />
       <AnchorPane layoutX="193.0" layoutY="60.0" prefHeight="200.0" prefWidth="200.0">
