@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.infoprotectionui.controllers.AuthGraphKeyController">
+   <children>
+      <Button layoutX="253.0" layoutY="346.0" mnemonicParsing="false" onAction="#onAuthButtonClicked" prefHeight="22.0" prefWidth="94.0" text="Войти" />
+      <Label layoutX="20.0" layoutY="35.0" prefHeight="18.0" prefWidth="155.0" text="Введите имя пользователя" />
+      <TextField fx:id="textFieldForUsername" layoutX="20.0" layoutY="53.0" />
+      <AnchorPane layoutX="200.0" layoutY="79.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <RadioButton fx:id="_0_0" layoutX="18.0" layoutY="13.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_2_0" layoutX="18.0" layoutY="159.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_1_0" layoutX="18.0" layoutY="86.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_2_1" layoutX="91.0" layoutY="159.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_2_2" layoutX="161.0" layoutY="159.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_1_2" layoutX="161.0" layoutY="86.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_1_1" layoutX="91.0" layoutY="86.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_0_2" layoutX="161.0" layoutY="13.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+            <RadioButton fx:id="_0_1" layoutX="91.0" layoutY="13.0" mnemonicParsing="false" onAction="#onKeyClicked" prefHeight="26.0" prefWidth="17.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="labelForAnswer" layoutX="94.0" layoutY="294.0" prefHeight="18.0" prefWidth="412.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
